@@ -7,7 +7,8 @@ const CountriesDropdown = (props) => {
     return null;
   }
   return ( 
-    <Form.Select onChange={handleSelectCountry}> 
+    <Form.Select onChange={handleSelectCountry}>
+      <option value="" selected disabled > Search Country/ City...</option>
       { allCountries?.map((weather ,key)=> {
         return  <option key={key} value={`${weather.name.common}`}>
             {weather.name.common}
