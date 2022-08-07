@@ -1,0 +1,25 @@
+.weather-section .row {
+  align-items: center;
+  height: 100vh;
+  display: flex;
+}
+#weather-details {
+  text-align: center;
+}
+.countries {
+  width: 85%;
+  margin: 0 auto;
+}
+.details-container {
+  background-color: #222831;
+  color: #fff;
+  max-width: 675px;
+  min-height: 300px;
+  width: 100%;
+  align-items: center;
+  box-shadow: 0 0 24px 7px rgb(0 0 0 / 20%);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 25px;
+}
